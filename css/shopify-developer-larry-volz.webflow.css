@@ -40,7 +40,9 @@ h1 {
 h2 {
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: Italiana, sans-serif;
+  /* font-family: Italiana, sans-serif; */
+  font-family: 'Open Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;
   color: #000;
   font-size: 56px;
   line-height: 1.2;
@@ -769,6 +771,8 @@ figcaption {
   color: #fff;
   font-size: 88px;
   text-align: center;
+  -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
 }
 
 .product-title.on-white-page {
@@ -890,7 +894,9 @@ figcaption {
   z-index: 2;
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: Italiana, sans-serif;
+  /* font-family: Italiana, sans-serif; */
+  font-family: 'Open Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;
   color: #000;
   font-size: 175px;
   line-height: 1;
@@ -1997,6 +2003,7 @@ figcaption {
   max-width: 660px;
   margin-right: auto;
   margin-left: auto;
+  
 }
 
 .rich-text h3 {
