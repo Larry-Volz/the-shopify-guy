@@ -10,6 +10,14 @@
   grid-column-gap: 16px;
 }
 
+.shopify_green_text {
+  color: #94BE46;
+}
+
+.shopify_green_background {
+  background-color: #94BE46;
+}
+
 body {
   background-color: #fff;
   font-family: Lato, sans-serif;
@@ -164,7 +172,7 @@ figcaption {
   margin-top: 0px;
   margin-bottom: 0px;
   padding: 15px 60px;
-  background-color: #6495ed;
+  background-color: #94BE46;
   -webkit-transition: background-color 200ms ease;
   transition: background-color 200ms ease;
   color: #fff;
@@ -172,7 +180,7 @@ figcaption {
 }
 
 .button:hover {
-  background-color: #8a2224;
+  background-color: #5E8F3E;
 }
 
 .content {
@@ -438,7 +446,7 @@ figcaption {
   height: 70px;
   margin-left: -1px;
   padding: 10px;
-  background-color: #af2d2f;
+  background-color: #94BE46;
   background-image: url('../images/arrow-right.svg');
   background-position: 50% 50%;
   background-size: auto;
@@ -453,7 +461,7 @@ figcaption {
 }
 
 .submit-button:hover {
-  background-color: #cf383b;
+  background-color: #5E8F3E;
 }
 
 .subscribe-form-block {
