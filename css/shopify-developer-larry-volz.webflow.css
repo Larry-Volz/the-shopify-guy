@@ -1012,8 +1012,8 @@ font-family: 'Ubuntu', sans-serif;
   display: -ms-flexbox;
   display: flex;
   height: 100%;
-  padding-right: 2em;
-  padding-left: 2em;
+  padding-right: 1em;
+  padding-left: 1em;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -2681,7 +2681,7 @@ font-family: 'Ubuntu', sans-serif;
   }
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 479px) { 
   h1 {
     font-size: 40px;
   }
