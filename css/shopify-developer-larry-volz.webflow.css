@@ -896,10 +896,10 @@ figcaption {
   margin-bottom: 0px;
   /* font-family: Italiana, sans-serif; */
   font-family: 'Open Sans', sans-serif;
-font-family: 'Ubuntu', sans-serif;
-  color: #000;
+  font-family: 'Ubuntu', sans-serif;
+  color: #ffffff;
   font-size: 175px;
-  line-height: 1;
+  line-height: ;
   font-weight: 400;
   text-align: center;
 }
@@ -1012,8 +1012,8 @@ font-family: 'Ubuntu', sans-serif;
   display: -ms-flexbox;
   display: flex;
   height: 100%;
-  padding-right: 1em;
-  padding-left: 1em;
+  padding-right: 2em;
+  padding-left: 2em;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -2781,7 +2781,7 @@ font-family: 'Ubuntu', sans-serif;
   }
 
   .hero-text {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .project-item-image {
