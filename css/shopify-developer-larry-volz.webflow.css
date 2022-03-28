@@ -2522,12 +2522,13 @@ figcaption {
   }
 
   .hero-text {
-    font-size: 60px;
+    font-size: 70px;
   }
 
    /* added 3/27/22 11:02pm */
    .hero-text.white-text {
-    line-height: 1.7em;
+    line-height: 2em;
+    font-size:20px;
   }
 
   .project-item-image {
