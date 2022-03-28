@@ -1249,17 +1249,17 @@ figcaption {
   right: 0%;
   bottom: 0%;
   height: 70vh;
-  background-image: url('../images/personal-4.jpg');
+  background-image: url('../assets/projector_site_on_laptop_from_placeit.png');
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .scrollable-image._2 {
-  background-image: url('../images/phone-on-grass.jpeg');
+  background-image: url('../assets/flower-shop_2computers.png');
 }
 
 .scrollable-image._3 {
-  background-image: url('../images/friendly.jpg');
+  background-image: url('../assets/propeller_mobile_and_desktop.png');
 }
 
 .white-text {
@@ -1725,7 +1725,7 @@ figcaption {
   color: #ffffff;
   font-size:50px;
   line-height: ;
-  /* font-weight: 400; */
+  font-weight: 400;
   text-align: left;
 }
 
