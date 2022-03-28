@@ -905,7 +905,7 @@ figcaption {
 }
 
 .hero-text.white-text {
-  font-size: 80px;
+  font-size: 150px;
   line-height: 1em;
 }
 
@@ -2528,7 +2528,8 @@ figcaption {
 
    /* added 3/27/22 11:02pm */
    .hero-text.white-text {
-    line-height: 1.7em;
+    font-size: 100px;
+    line-height: 1.25em;
   }
 
   .project-item-image {
