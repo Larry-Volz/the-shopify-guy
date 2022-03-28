@@ -2525,6 +2525,11 @@ figcaption {
     font-size: 70px;
   }
 
+   /* added 3/27/22 11:02pm */
+   .hero-text.white-text {
+    line-height: 1.1em;
+  }
+
   .project-item-image {
     width: 70vw;
   }
@@ -2787,7 +2792,7 @@ figcaption {
   /* added 3/27/22 11:02pm */
   .hero-text.white-text {
     font-size: 100px;
-    line-height: 1em;
+    line-height: 1.1em;
   }
 
   .project-item-image {
