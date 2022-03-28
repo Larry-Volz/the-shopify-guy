@@ -2784,6 +2784,11 @@ figcaption {
     font-size: 40px;
   }
 
+  /* added 3/27/22 10:59pm */
+  .hero-text.white-text {
+    font-size: 80px;
+  }
+
   .project-item-image {
     height: 60vh;
   }
