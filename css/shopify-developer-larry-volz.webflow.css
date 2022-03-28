@@ -1714,6 +1714,21 @@ figcaption {
   align-items: center;
 }
 
+.accordion-header-text {
+  position: relative;
+  z-index: 2;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  /* font-family: Italiana, sans-serif; */
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  color: #ffffff;
+  font-size:50px;
+  line-height: ;
+  /* font-weight: 400; */
+  text-align: left;
+}
+
 .accordion-title-text {
   margin-top: 0px;
   font-family: Lato, sans-serif;
