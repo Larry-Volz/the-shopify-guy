@@ -905,7 +905,7 @@ figcaption {
 }
 
 .hero-text.white-text {
-  font-size: 125px;
+  font-size: 200px;
 }
 
 .project-background {
@@ -2154,7 +2154,6 @@ figcaption {
 
   .hero-text.white-text {
     font-size: 250px;
-    line-height: 1.0em;
   }
 
   .project-item-image {
