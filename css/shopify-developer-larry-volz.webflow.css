@@ -2527,8 +2527,7 @@ figcaption {
 
    /* added 3/27/22 11:02pm */
    .hero-text.white-text {
-    line-height: 2em;
-    font-size:20px;
+    line-height: 1.7em;
   }
 
   .project-item-image {
