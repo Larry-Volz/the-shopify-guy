@@ -905,8 +905,9 @@ figcaption {
 }
 
 .hero-text.white-text {
-  font-size: 150px;
+  font-size: 7em;
   line-height: 1em;
+  margin-bottom: 0.25em;
 }
 
 .project-background {
@@ -2168,6 +2169,13 @@ figcaption {
   }
 }
 
+/* @media screen and (min-width: 1600px) {
+
+.hero-text.white-text{
+  size: 80px;
+}
+} */
+
 @media screen and (max-width: 991px) {
   h1 {
     font-size: 90px;
@@ -2335,6 +2343,12 @@ figcaption {
 
   .hero-text {
     font-size: 110px;
+  }
+
+  .hero-text.white-text {
+    font-size: 4em;
+    line-height: 80%;
+    margin-bottom: .5em;
   }
 
   .hero-content.small {
@@ -2524,12 +2538,6 @@ figcaption {
 
   .hero-text {
     font-size: 70px;
-  }
-
-   /* added 3/27/22 11:02pm */
-   .hero-text.white-text {
-    font-size: 100px;
-    line-height: 1.25em;
   }
 
   .project-item-image {
@@ -2793,8 +2801,9 @@ figcaption {
 
   /* added 3/27/22 11:02pm */
   .hero-text.white-text {
-    font-size: 100px;
-    line-height: 1.1em;
+    font-size: 4em;
+    line-height: 80%;
+    margin-bottom: .5em;
   }
 
   .project-item-image {
