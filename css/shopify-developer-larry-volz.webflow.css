@@ -8,6 +8,15 @@
   margin-top: -6em;
 }
 
+.services-area {
+  background-color: blue;
+}
+
+.service-area {
+  padding: 20px;
+  background-color: red;
+}
+
 /*  ***************************************** */
 
 .w-layout-grid {
