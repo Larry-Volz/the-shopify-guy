@@ -4,6 +4,10 @@
   margin-top: -5em;
 }
 
+.about-fancy-header {
+  margin-top: -6em;
+}
+
 /*  ***************************************** */
 
 .w-layout-grid {
@@ -2140,6 +2144,11 @@ figcaption {
 }
 
 @media screen and (min-width: 1920px) {
+
+  .about-fancy-header {
+    margin-top: -7em;
+  }
+
   body {
     font-size: 24px;
   }
@@ -2200,6 +2209,11 @@ figcaption {
 } */
 
 @media screen and (max-width: 991px) {
+
+  .about-fancy-header {
+    margin-top: -2em;
+  }
+
   h1 {
     font-size: 90px;
   }
@@ -2495,6 +2509,12 @@ figcaption {
 }
 
 @media screen and (max-width: 767px) {
+
+  .about-fancy-header {
+    margin-top: 0em;
+    /* background-color: red; */
+  }
+
   h1 {
     font-size: 70px;
   }
@@ -2720,6 +2740,11 @@ figcaption {
 }
 
 @media screen and (max-width: 479px) { 
+
+  .about-fancy-header {
+    margin-top: 0em;
+    /* background-color: red; */
+  }
 
   .project-item-title-container {
     background-color: rgba(0,0,0,0.5); /* Black background with opacity */
