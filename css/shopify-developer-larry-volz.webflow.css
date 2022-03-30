@@ -29,16 +29,37 @@
 
 .image-area {
   /* background-color: purple; */
-  display: flex;
+  display: relative;
   justify-content: center;
   align-items: center;
   min-width: 300px;
-  max-width: 40%;
+  max-width: 50%;
+  flex-direction: row;
+  margin-bottom: -30px;
+  justify-content: space-between;
+}
+
+.img-box1 {
+  /* background-color: red; */
+  width: 40%;
+  /* max-width: 300px; */
+  position: relative;
+  left: 20px;
+  top:40px;
+}
+
+.img-box2 {
+  /* background-color: blue; */
+  width: 60%;
+  position: relative;
+  left: 30%;
+  top: -120px;
+  
 }
 
 .service-area .text-area {
   /* background-color: #94BE46; */
-  max-width: 60%;
+  max-width: 50%;
   padding:40px;
 }
 
@@ -69,6 +90,10 @@
     margin: 20px 40px;
     /* background-color: black; */
     margin: 20px 0px;
+  }
+
+  .rvs {
+    flex-direction: row;
   }
 
 }
