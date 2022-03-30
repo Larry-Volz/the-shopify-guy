@@ -249,7 +249,7 @@ h2 {
   margin-bottom: 0px;
   /* font-family: Italiana, sans-serif; */
   font-family: 'Open Sans', sans-serif;
-font-family: 'Ubuntu', sans-serif;
+ font-family: 'Ubuntu', sans-serif;
   color: #000;
   font-size: 56px;
   line-height: 1.2;
@@ -259,7 +259,8 @@ font-family: 'Ubuntu', sans-serif;
 h3 {
   margin-top: 1;
   margin-bottom: 10px;
-  font-family: Italiana, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+ font-family: 'Ubuntu', sans-serif;
   color: #000;
   font-size: 42px;
   line-height: 1.25;
@@ -269,7 +270,8 @@ h3 {
 h4 {
   margin-top: 10px;
   margin-bottom: 10px;
-  font-family: Italiana, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   color: #000;
   font-size: 32px;
   line-height: 1.25;
@@ -279,7 +281,8 @@ h4 {
 h5 {
   margin-top: 10px;
   margin-bottom: 10px;
-  font-family: Italiana, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   color: #000;
   font-size: 24px;
   line-height: 1.2;
@@ -289,7 +292,8 @@ h5 {
 h6 {
   margin-top: 10px;
   margin-bottom: 10px;
-  font-family: Italiana, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   color: #000;
   font-size: 16px;
   line-height: 18px;
