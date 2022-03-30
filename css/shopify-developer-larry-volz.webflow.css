@@ -138,38 +138,54 @@
 @media only screen and (max-width: 479px) {
 
   .service-area {
-    background-color: green;
-    max-width: 80%;
-    padding: 0px;
-    margin-top: 130px;
+    /* background-color: green; */
+    max-width: 100%;
+    padding: 20px;
   }
-
+  
   .service-area .text-area {
-    background-color: blue;
+    /* background-color: blue; */
     max-width: 100%;
     padding:0px;
   }
-
-
+  
+  
   .image-area {
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+    min-width:300px;
+  }
+
+  .img-box1 {
+    /* background-color: orange; */
+    width: 70%;
+    /* max-width: 300px; */
+    position: relative;
+    left: 20px;
+    top:-30px;
+  }
+  
+  .img-box2 {
+    /* background-color: yellow; */
+    width: 100%;
+    position: relative;
+    left: -35px;
+    top: 60px;
+    
   }
 
   .text-area {
-    background-color: green;
+    /* background-color: green; */
   }
 
-  
-  
   .text-area p {
     margin: 10 0px;
     font-size: 1em;
 
-    background-color: indigo;
+    /* background-color: indigo; */
     /* margin-bottom: 10px; */
   }
 
