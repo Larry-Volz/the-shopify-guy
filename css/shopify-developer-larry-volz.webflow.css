@@ -23,6 +23,10 @@
   flex-grow: 1;
 }
 
+.rvs {
+  flex-direction: row-reverse;
+}
+
 .image-area {
   /* background-color: purple; */
   display: flex;
@@ -1365,6 +1369,10 @@ figcaption {
 
 .scrollable-image._3 {
   background-image: url('../assets/propeller_mobile_and_desktop.png');
+}
+
+.scrollable-image._4 {
+  background-image: url('../assets/EscapeRoomPlans_front_600x600.png');
 }
 
 .white-text {
