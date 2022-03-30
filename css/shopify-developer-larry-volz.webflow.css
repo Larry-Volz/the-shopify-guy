@@ -10,7 +10,7 @@
 
 .services-area {
   /* background-color: purple; */
-  /* padding: 20px; */
+  /* padding: 1; */
 }
 
 .service-area {
@@ -44,7 +44,7 @@
   width: 45%;
   /* max-width: 300px; */
   position: relative;
-  left: 20px;
+  left: 1;
   top:40px;
 }
 
@@ -64,7 +64,7 @@
 }
 
 .text-area p {
-  margin: 20px 0px;
+  margin: 1 0px;
   /* background-color: blue; */
   /* margin-bottom: 10px; */
 }
@@ -96,7 +96,7 @@
     width: 45%;
     /* max-width: 300px; */
     position: relative;
-    left: 20px;
+    left: 1;
     top:40px;
   }
   
@@ -125,9 +125,9 @@
   }
   
   .text-area p {
-    /* margin: 20px 40px; */
+    /* margin: 1 40px; */
     /* background-color: indigo; */
-    margin: 20px 0px;
+    margin: 1 0px;
   }
 
   .rvs {
@@ -140,7 +140,7 @@
   .service-area {
     /* background-color: green; */
     max-width: 100%;
-    padding: 20px;
+    padding: 1;
   }
   
   .service-area .text-area {
@@ -152,28 +152,29 @@
   
   .image-area {
     /* background-color: red; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: inline-block;
+    position: relative;
+    /* justify-content: center; */
+    /* align-items: center; */
     width: 100%;
     min-width:300px;
   }
 
   .img-box1 {
     /* background-color: orange; */
-    width: 70%;
+    width: 80%;
     /* max-width: 300px; */
     position: relative;
-    left: 20px;
-    top:-30px;
+    left: -20px;
+    /* top:-30px; */
   }
   
   .img-box2 {
     /* background-color: yellow; */
     width: 100%;
     position: relative;
-    left: -35px;
-    top: 60px;
+    left: 30px;
+    top: -100px;
     
   }
 
@@ -182,7 +183,7 @@
   }
 
   .text-area p {
-    margin: 10 0px;
+    margin: 20px;
     font-size: 1em;
 
     /* background-color: indigo; */
@@ -191,7 +192,7 @@
 
   .text-area .accordion-header-text {
     font-size: 1.75em;
-    margin-bottom: 20px;
+    margin: 20px;
   }
 
 }
@@ -230,7 +231,7 @@ body {
 }
 
 h1 {
-  margin-top: 20px;
+  margin-top: 1;
   margin-bottom: 10px;
   font-family: Italiana, sans-serif;
   color: #000;
@@ -252,7 +253,7 @@ font-family: 'Ubuntu', sans-serif;
 }
 
 h3 {
-  margin-top: 20px;
+  margin-top: 1;
   margin-bottom: 10px;
   font-family: Italiana, sans-serif;
   color: #000;
@@ -657,7 +658,7 @@ figcaption {
   background-repeat: no-repeat;
   background-attachment: scroll;
   font-size: 18px;
-  line-height: 20px;
+  line-height: 1;
   text-align: center;
   letter-spacing: 1px;
   text-decoration: none;
@@ -681,8 +682,8 @@ figcaption {
   z-index: 1;
   margin-right: 3rem;
   margin-left: 3rem;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 1;
+  padding-bottom: 1;
   background-color: transparent;
 }
 
@@ -733,7 +734,7 @@ figcaption {
   -webkit-transition: color 200ms ease;
   transition: color 200ms ease;
   color: #040000;
-  font-size: 20px;
+  font-size: 1;
   text-decoration: none;
 }
 
@@ -751,7 +752,7 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding-left: 20px;
+  padding-left: 1;
   -webkit-box-pack: end;
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
@@ -858,7 +859,7 @@ figcaption {
 }
 
 .licensing {
-  padding: 20px;
+  padding: 1;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
@@ -1550,8 +1551,8 @@ figcaption {
   display: grid;
   margin-top: 40px;
   grid-auto-columns: 1fr;
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
+  grid-column-gap: 1;
+  grid-row-gap: 1;
   -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto;
@@ -1561,7 +1562,7 @@ figcaption {
 .form-input {
   height: auto;
   margin-bottom: 0px;
-  padding: 20px 5px;
+  padding: 1 5px;
   border-style: none solid solid;
   border-width: 0px 0px 2px;
   border-color: #040000 #000 #040000 #040000;
@@ -1569,7 +1570,7 @@ figcaption {
   -webkit-transition: background-color 200ms ease;
   transition: background-color 200ms ease;
   font-family: Lato, sans-serif;
-  font-size: 20px;
+  font-size: 1;
   font-weight: 400;
   text-transform: uppercase;
 }
@@ -1764,7 +1765,7 @@ figcaption {
 }
 
 .text-medium {
-  font-size: 20px;
+  font-size: 1;
 }
 
 .project-item-summary {
@@ -1811,7 +1812,7 @@ figcaption {
   width: 100px;
   height: 100px;
   margin-bottom: 30px;
-  padding: 30px 20px 30px 30px;
+  padding: 30px 1 30px 30px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -1879,8 +1880,8 @@ figcaption {
   width: 30%;
   min-height: 200px;
   min-width: 30%;
-  padding-bottom: 20px;
-  padding-left: 20px;
+  padding-bottom: 1;
+  padding-left: 1;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -1948,8 +1949,8 @@ figcaption {
   display: -ms-flexbox;
   display: flex;
   min-height: 200px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 1;
+  padding-bottom: 1;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1992,7 +1993,7 @@ figcaption {
 }
 
 .blog-item:nth-child(odd) {
-  margin-top: -20px;
+  margin-top: -1;
 }
 
 .blog-item:nth-child(even) {
@@ -2118,7 +2119,7 @@ figcaption {
 }
 
 .license-item-description {
-  margin-bottom: 20px;
+  margin-bottom: 1;
 }
 
 .product-details-image {
@@ -2284,7 +2285,7 @@ figcaption {
 }
 
 .project-details-grid-image:nth-child(odd) {
-  margin-top: -20px;
+  margin-top: -1;
 }
 
 .project-details-grid-image:nth-child(even) {
@@ -2302,7 +2303,7 @@ figcaption {
 }
 
 .post-item-category {
-  margin-top: 20px;
+  margin-top: 1;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -2361,8 +2362,8 @@ figcaption {
   }
 
   .button {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 1;
+    padding-bottom: 1;
     font-size: 23px;
   }
 
@@ -2417,7 +2418,7 @@ figcaption {
   }
 
   h5 {
-    font-size: 20px;
+    font-size: 1;
   }
 
   blockquote {
@@ -2587,13 +2588,13 @@ figcaption {
   }
 
   .grid-6-columns {
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
+    grid-column-gap: 1;
+    grid-row-gap: 1;
   }
 
   .grid-4-columns {
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
+    grid-column-gap: 1;
+    grid-row-gap: 1;
   }
 
   .about-images-container {
@@ -2725,8 +2726,8 @@ figcaption {
   }
 
   .content.vertical-center {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 1;
+    padding-bottom: 1;
   }
 
   .content.social-links-content {
@@ -2898,7 +2899,7 @@ figcaption {
     right: auto;
     bottom: 0%;
     min-height: auto;
-    padding-bottom: 20px;
+    padding-bottom: 1;
   }
 
   .accordion-title {
@@ -3110,7 +3111,7 @@ figcaption {
   }
 
   .accordion-number {
-    padding-top: 20px;
+    padding-top: 1;
   }
 
   .accordion-icon {
@@ -3153,11 +3154,11 @@ figcaption {
   }
 
   .rich-text ol {
-    padding-left: 20px;
+    padding-left: 1;
   }
 
   .rich-text ul {
-    padding-left: 20px;
+    padding-left: 1;
   }
 
   .project-details-grid-image:nth-child(odd) {
