@@ -518,6 +518,7 @@ figcaption {
 }
 
 .section.video-section {
+  margin-top: 180px;
   position: relative;
   z-index: 0;
   display: -webkit-box;
@@ -625,7 +626,7 @@ figcaption {
 
 .no-margin {
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
   color: #fff;
 }
 
@@ -2426,7 +2427,7 @@ figcaption {
   }
 
   h3 {
-    font-size: 36px;
+    font-size: 24px;
   }
 
   h5 {
