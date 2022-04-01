@@ -7,7 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-    <style>
+
+    <!-- -------------COOL ANIMATED ON/OFF POWER BUTTON --------- -->
+    <!-- <style>
         .on_button {
             width: 200px;
             height: auto;
@@ -22,8 +24,212 @@
         
     </style>
     <a href="#">
-        <img src="assets/on_button.png" alt="" class="on_button">
+        <img src="assets/on_button.png" alt="" class="on_button"
+        style ="transform: translateX(600px);">
     </a>
+
+    <div class="box" style="
+    background-color: purple; 
+    height:100px; 
+    width:200px; 
+    transform:scaleY(4);
+    transform: rotate(120deg);
+    transform: skewY(33deg);
+    "
+    >
+    </div> -->
+
+
+    <!-- -------------- ANIMATION USING TRANSFORM & TRANSITION -------- -->
+    <!-- <style>
+        .parent {
+            background-color: darkblue;
+            width: 400px;
+            height: 400px;
+        }
+        .child {
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            /* transition: transform 2s linear; */
+            /* Or can leave transform off above and it defaults to animating ALL properties when the transform is called */
+            transition: 1s ease-in-out;
+
+            /* ease-in-out means show in and out and fast in the middle.  Another option is linear - same speed throughout */
+            /* Can inspect element and next to transition in developer tools you can modify the curve with the little purple graph box.  Like this one is a bounce: */
+            transition: 2s cubic-bezier(0.68, -0.55, 0.27, 1.55)
+
+        }
+        .parent:hover .child{
+            /* percentage = percentage of .child objects width*/
+            /* or can use pixels */
+            background-color: yellow;
+            transform: translateX(700%);
+        }
+    </style>
+
+
+    <div class="parent">
+        <div class="child">
+
+        </div>
+    </div> -->
+
+
+<!-- ----------- NOW USING ANIMATION SYNTAX -->
+
+<style>
+    .parent {
+        background-color: darkblue;
+        width: 100px;
+        height: 100px;
+    }
+    .child {
+        background-color: red;
+        width: 50%;
+        height: 50%;
+        border-radius: 50%;
+        animation: trace-a-square 2s ease-in forwards infinite alternate 1s;
+
+
+    }
+    .parent:hover .child{
+        /* defaults back to start if you don't tell it to keep the changes so have to put 'forwards' in trigger animation above */
+        /* animation: trace-a-square 2s ease-in forwards 3 alternate 1s; */
+        /* to be permanent we change above from 3 reps to infinite and just put the function call in .child */
+        /* Can also play/pause based on hover with animation-play-state */
+        /* another option is running - default (is running).  */
+        animation-play-state: paused;
+    }
+
+    @keyframes trace-a-square {
+        0% {
+            transform: translateX(0);
+        }
+        25% {
+            transform: translateY(100%);
+            background-color: yellow;
+        }
+        50% {
+            /* NOTE: when translating the x and y - NO COLON OR TRANSFORM command between them!  SAME LINE*/
+            transform: translateX(100%)  translateY(100%);
+            background-color: green;
+        }
+        75% {
+            transform: translateX(100%);
+            background-color: cornflowerblue;
+        }
+        100% {
+            transform: translateX(0%)  translateY(0%);
+            background-color: red;
+        }
+    }
+
+</style>
+
+
+<div class="parent">
+    <div class="child">
+
+    </div>
+</div>
+
+<!--------------------- JAMES BOND ATTEMPT ------------------------- -->
+
+<style>
+    .circle {
+        position: fixed;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: #1a1a1a;
+    }
+
+    .circle._0 {
+        left:10px;
+        top: 200px;
+    }
+
+    .circle._1 {
+        left:10px;
+        top: 200px;
+        visibility: hidden;
+    }
+
+    .circle._2 {
+        left:200px;
+        top: 200px;
+        visibility: hidden;
+    }
+
+    .circle._3 {
+        left:400px;
+        top: 200px;
+        visibility: hidden;
+    }
+    
+    
+    .circle._1{
+        animation: james-bond-circles 1s linear forwards  ;
+    }
+
+    .circle._2 {
+        animation: james-bond-circles 1s linear forwards 1s ;
+    }
+
+    .circle._3 {
+        /* animation: james-bond-circles 1s linear forwards 2s ; */
+        animation: grow-in-center 2s forwards 2s;
+        
+    }
+
+ 
+
+
+
+    @keyframes james-bond-circles  {
+        100% {
+            visibility: visible;
+            transform: translateX(200px); 
+        }
+    }
+
+    @keyframes grow-in-center {
+        0% {
+            visibility: visible;
+        }
+        50% {
+            transform: translateX(200px); 
+        }
+        100% {
+            /* visibility: visible; */
+            width: 400px;
+            height: 400px;
+        }
+    }
+
+    /* @keyframes james-bond-circle2  {
+        100% {
+            visibility: visible;
+            transform: translateX(200px); 
+        }
+    }
+
+    @keyframes james-bond-circle3  {
+        100% {
+            visibility: visible;
+            transform: translateX(200px); 
+        }
+    } */
+
+
+</style>
+
+<div class="circle _0"></div>
+<div class="circle _1"></div>
+<div class="circle _2"></div>
+<div class="circle _3"></div>
+<div class="circle _4"></div>
 
 </body>
 </html>
