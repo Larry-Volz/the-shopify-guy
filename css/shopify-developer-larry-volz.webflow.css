@@ -1168,7 +1168,7 @@ figcaption {
 }
 
 .project-item-image {
-  width: 60vw;
+  width: 50vw;
   height: auto;
   max-width: none;
   -o-object-fit: cover;
