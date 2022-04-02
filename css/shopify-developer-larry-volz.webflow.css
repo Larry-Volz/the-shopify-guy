@@ -3001,10 +3001,15 @@ figcaption {
     background-color: rgba(0,0,0,0.5); /* Black background with opacity */
     z-index: 2;
   }
+
+  .accordion-header-text {
+    margin-top: 40px;
+  }
+
   h1 {
     font-size: 40px;
   }
-
+ 
   h2 {
     font-size: 32px;
   }
