@@ -31,6 +31,13 @@ hr {
   width: 95%;
 }
 
+.inner-li {
+  list-style-type: none;
+  margin: 20px 40px;
+}
+
+.inner-li::before { content: '✅'}
+
 .image-area {
   /* background-color: red; */
   display: relative;
