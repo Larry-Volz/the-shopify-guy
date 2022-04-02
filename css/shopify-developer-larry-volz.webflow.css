@@ -73,6 +73,47 @@ hr {
   margin: 10px;
 }
 
+.migration-platform-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between
+}
+
+.migration-platform {
+  margin-top: 30px;
+  justify-content: center;
+  text-align: center;
+}
+
+.migration-platform p {
+  font-size:x-small;
+}
+
+.migration-logo {
+  width: 55px;
+  height: auto;
+}
+
+.tool-tip-text {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: relative;
+  transform: translateY(-75px);
+  transform: translateX(75px);
+  z-index: 1;
+}
+
+.tooltip:hover .tool-tip-text {
+  visibility: visible;
+}
+
 
 @media only screen and (max-width: 767px) {
 
@@ -272,7 +313,7 @@ h3 {
 }
 
 h4 {
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 10px;
   font-family: 'Open Sans', sans-serif;
   font-family: 'Ubuntu', sans-serif;
