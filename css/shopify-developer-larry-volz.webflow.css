@@ -3025,9 +3025,9 @@ figcaption {
     z-index: 2;
   }
 
-  .accordion-header-text {
+  .text-area .accordion-header-text {
     margin-top: 40px;
-    font-size: 1.5em;
+    font-size: 2.0em;
   }
 
   h1 {
