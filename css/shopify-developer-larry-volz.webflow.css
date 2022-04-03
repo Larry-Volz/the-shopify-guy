@@ -133,7 +133,7 @@ hr {
     max-width: 80%;
     padding: 0px;
     margin-top: 130px;
-  }
+  } 
   
   .image-area {
     /* background-color: red; */
@@ -2472,6 +2472,17 @@ figcaption {
 
 @media screen and (max-width: 991px) {
 
+  .image-area {
+    max-width: 80%;
+  }
+
+  .service-area .text-area {
+    /* background-color: green; */
+    max-width: 80%;
+    padding: 0px;
+    margin-top: 40px;
+  } 
+
   .text-medium {
     font-size: 1.7em;
   }
@@ -2775,6 +2786,13 @@ figcaption {
 }
 
 @media screen and (max-width: 767px) {
+
+  .service-area .text-area {
+    /* background-color: green; */
+    max-width: 80%;
+    padding: 0px;
+    margin-top: 130px;
+  }
 
   .text-medium {
     font-size: 1.5em;
