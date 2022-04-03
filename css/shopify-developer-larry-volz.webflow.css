@@ -1,3 +1,13 @@
+body {
+  background-color: #fff;
+  font-family: Lato, sans-serif;
+  color: #040000;
+  font-size: 1.5em;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+
 /* ************* MY EDITS ************** */
 
 
@@ -35,9 +45,13 @@ hr {
   width: 95%;
 }
 
+.q-and-a p {
+  margin-top: 40px;
+}
+
 .inner-li {
   list-style-type: none;
-  margin: 20px 40px;
+  margin: 20px 20px 0px;
 }
 
 .inner-li::before { content: '✅'}
@@ -281,14 +295,7 @@ hr {
   background-color: #94BE46;
 }
 
-body {
-  background-color: #fff;
-  font-family: Lato, sans-serif;
-  color: #040000;
-  font-size: 1.5em;
-  line-height: 1.2;
-  font-weight: 400;
-}
+
 
 h1 {
   margin-top: 1;
