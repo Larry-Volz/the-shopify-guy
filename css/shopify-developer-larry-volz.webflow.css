@@ -284,7 +284,7 @@ body {
   background-color: #fff;
   font-family: Lato, sans-serif;
   color: #040000;
-  font-size: 18px;
+  font-size: 1.2em;
   line-height: 1.2;
   font-weight: 400;
 }
@@ -2471,6 +2471,10 @@ figcaption {
 
 @media screen and (max-width: 991px) {
 
+  .text-medium {
+    font-size: 1.7em;
+  }
+
   .about-fancy-header {
     margin-top: -2em;
   }
@@ -2770,6 +2774,14 @@ figcaption {
 }
 
 @media screen and (max-width: 767px) {
+
+  .text-medium {
+    font-size: 1.5em;
+  }
+
+  .accordian-header-text p {
+    font-size: 2em;
+  }
 
   .about-fancy-header {
     margin-top: 0em;
