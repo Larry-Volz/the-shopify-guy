@@ -1,5 +1,8 @@
 /* ************* MY EDITS ************** */
 
+.message-text-area {
+  text-align: left;
+}
 #first-section-pictures {
   margin-top: -5em;
 }
@@ -75,7 +78,7 @@ hr {
 }
 
 .text-area p {
-  margin: 1 0px;
+  margin: 10px;
   /* background-color: blue; */
   margin: 10px;
 }
@@ -1638,7 +1641,7 @@ figcaption {
 
 .form-input:focus {
   border-bottom-color: #040000;
-  background-color: rgba(4, 0, 0, 0.03);
+  background-color: white;
 }
 
 .form-input::-webkit-input-placeholder {
