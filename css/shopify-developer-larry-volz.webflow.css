@@ -45,9 +45,7 @@ hr {
   width: 95%;
 }
 
-.q-and-a p {
-  margin-top: 40px;
-}
+
 
 .inner-li {
   list-style-type: none;
@@ -96,6 +94,10 @@ hr {
   margin: 10px;
   /* background-color: blue; */
   margin: 10px;
+}
+
+.q-and-a p {
+  margin-top: 40px;
 }
 
 .migration-platform-container {
