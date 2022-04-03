@@ -1182,7 +1182,7 @@ figcaption {
 }
 
 .hero-text.white-text {
-  font-size: 7em;
+  font-size: 5em;
   line-height: 1em;
   margin-bottom: 0.25em;
 }
@@ -1839,7 +1839,7 @@ figcaption {
 }
 
 .text-medium {
-  font-size: 1.5em;
+  font-size: 1.0em;
 }
 
 .project-item-summary {
