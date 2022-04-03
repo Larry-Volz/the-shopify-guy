@@ -1829,7 +1829,7 @@ figcaption {
 }
 
 .text-medium {
-  font-size: 1;
+  font-size: 1em;
 }
 
 .project-item-summary {
@@ -3002,9 +3002,22 @@ figcaption {
 
 @media screen and (max-width: 479px) { 
 
+  li {
+    font-size: 1.5em;
+    margin-left: 5px;
+  }
+
   .about-fancy-header {
     margin-top: 0em;
     /* background-color: red; */
+  }
+
+  .text-medium {
+    font-size: 1.5em;
+  }
+
+  .text-area p {
+    font-size: 1.5em;
   }
 
   .project-item-title-container {
@@ -3014,6 +3027,7 @@ figcaption {
 
   .accordion-header-text {
     margin-top: 40px;
+    font-size: 1.5em;
   }
 
   h1 {
