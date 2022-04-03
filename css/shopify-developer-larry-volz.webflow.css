@@ -285,7 +285,7 @@ body {
   background-color: #fff;
   font-family: Lato, sans-serif;
   color: #040000;
-  font-size: 1.2em;
+  font-size: 1.5em;
   line-height: 1.2;
   font-weight: 400;
 }
@@ -340,7 +340,7 @@ h5 {
   font-family: 'Open Sans', sans-serif;
   font-family: 'Ubuntu', sans-serif;
   color: #000;
-  font-size: 24px;
+  font-size: 1.5em;
   line-height: 1.2;
   font-weight: 400;
 }
@@ -1830,7 +1830,7 @@ figcaption {
 }
 
 .text-medium {
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 .project-item-summary {
@@ -2411,9 +2411,15 @@ figcaption {
     margin-top: -7em;
   }
 
+  .text-area p {
+    font-size: 1.2em;
+  }
+
   body {
     font-size: 24px;
   }
+
+  .post-dual-im
 
   h2 {
     font-size: 80px;
@@ -2471,17 +2477,24 @@ figcaption {
 } */
 
 @media screen and (max-width: 991px) {
-
+  
+  
+  
   .image-area {
     max-width: 80%;
   }
-
+  
   .service-area .text-area {
     /* background-color: green; */
     max-width: 80%;
     padding: 0px;
     margin-top: 40px;
   } 
+  
+  
+  .text-area p, .text-area li {
+    font-size: 1.35em;
+  }
 
   .text-medium {
     font-size: 1.7em;
@@ -2794,6 +2807,8 @@ figcaption {
     margin-top: 130px;
   }
 
+
+
   .text-medium {
     font-size: 1.5em;
   }
@@ -3048,7 +3063,7 @@ figcaption {
   }
 
   .text-area p {
-    font-size: 1.5em;
+    font-size: 1.0;
   }
 
   .project-item-title-container {
@@ -3058,7 +3073,7 @@ figcaption {
 
   .text-area .accordion-header-text {
     margin-top: 60px;
-    font-size: 2.5em;
+    font-size: 2.25em;
   }
 
   h1 {
