@@ -397,7 +397,7 @@
                           type="submit" 
                           class="button w-button"
                           disabled>
-                          SUBMIT FOO!
+                          SUBMIT FOO2!
                         </button>
                         </div>
                         
@@ -553,7 +553,9 @@
 <script type="text/javascript">
   var onloadCallback = function() {
     // alert("grecaptcha is ready!");
-    let theAnswer=42;
+    // added coding from _________
+
+    //______
   };
 </script>
 
@@ -562,6 +564,23 @@ async defer>
 </script>
 
 <!--  end reCAPTCHA -->
+
+
+<!--   DE-ACTIVATE FORM UNLESS reCAPTCHA IS WORKING-->
+<!-- I'M LEAVING THIS AND SIMILAR IN-LINE FOR REFERENCE PURPOSES FOR FUTURE PROJECTS -->
+<script>
+      $("#wf-form-Contact-Form").on('submit',function(event) {
+      var recaptcha = $("#g-recaptcha-response").val();
+      if(recaptcha===""){
+        event.preventDefault();
+        alert("Please reassure me that you are not a robot.")
+      }
+    });
+</script>
+//----
+
+
+
 
 </body>
 </html>
