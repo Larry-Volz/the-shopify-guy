@@ -274,7 +274,7 @@
             </div>
             <div class="content-sticky">
               <div class="contact-form w-form">
-                <form id="wf-form-Contact-Form" name="wf-form-Contact-Form" action = "https://submit-form.com/FVYkLYPb" data-name="Contact Form" method="get">
+                <form id="wf-form-Contact-Form" name="wf-form-Contact-Form" action = "https://submit-form.com/FVYkLYPb" data-name="Contact Form" method="POST">
 
 
                   <div class="contact-form-grid">
@@ -383,10 +383,21 @@
                     <div id="w-node-_588f1459-ca34-3829-2763-5fd9c5c3cd0e-839ec52c" class="content">
                       <div class="text-right">
                         
-                        <div class="fade-in-small-delay-on-load"><input type="submit" value="SUBMIT" data-wait="Please wait..." class="button w-button"></div>
+                        <div class="fade-in-small-delay-on-load">
+                          <button 
+                          id="submit-button"
+                          type="submit" 
+                          class="button w-button"
+                          disabled>
+                          SUBMIT
+                        </button>
+                        </div>
 
                         <!--   reCAPTCHA v2 code -->
-                        <div class="g-recaptcha " data-sitekey="6Ldk_0sfAAAAAOwDqGITWBwqZsLHBz6ygbXFljKd"></div>
+                        <div 
+                          class="g-recaptcha " data-sitekey="6Ldk_0sfAAAAAOwDqGITWBwqZsLHBz6ygbXFljKd"
+                          data-callback="callback"
+                        ></div>
                         <!--  -------------- -->
                         
                       </div>
@@ -394,6 +405,16 @@
                   </div>
                   
                 </form>
+
+                <!--  more recCAPTCHA v2 code -->
+                <script type="text/javascript">
+                  function callback() {
+                    const submitButton = document.getElementById("submit-button");
+                    submitButton.removeAttribute("disabled");
+                  }
+                </script>
+                <!-- ------------------- -->
+
                 <div class="w-form-done">
                   <div>Thanks!  I'll look this over and get back to you as soon as I can.  I look forward to working with you!</div>
                 </div>
