@@ -360,6 +360,9 @@
       -moz-osx-font-smoothing: grayscale;
     }
   </style>
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 </head>
 
 <body class="body">
@@ -764,6 +767,9 @@
                   <div class="content-sticky">
                     <div class="contact-form w-form">
                       <form id="wf-form-Contact-Form" name="wf-form-Contact-Form" action = "https://submit-form.com/FVYkLYPb" data-name="Contact Form" method="get">
+                        <!--   reCAPTCHA v2 code -->
+                        <div class="g-recaptcha" data-sitekey="6Ldk_0sfAAAAAOwDqGITWBwqZsLHBz6ygbXFljKd"></div>
+                        <!--  -------------- -->
                         <div class="contact-form-grid">
                           <div id="w-node-_553cdc09-9f97-f8cd-447f-9dabc614e70a-839ec52c" 
                           class="content">
@@ -870,6 +876,11 @@
                           <div id="w-node-_588f1459-ca34-3829-2763-5fd9c5c3cd0e-839ec52c" class="content">
                             <div class="text-right">
                               <div class="fade-in-small-delay-on-load"><input type="submit" value="SUBMIT" data-wait="Please wait..." class="button w-button"></div>
+
+                              <!--   reCAPTCHA v2 code -->
+                              <div class="g-recaptcha" data-sitekey="6Ldk_0sfAAAAAOwDqGITWBwqZsLHBz6ygbXFljKd" style="margin-top:40px;"></div>
+                              <!--  -------------- -->
+                              
                             </div>
                           </div>
                         </div>
@@ -923,6 +934,22 @@
   </script>
   <script src="js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+
+  <!--  reCAPTCHA v2 code -->
+
+  <script type="text/javascript">
+    var onloadCallback = function() {
+      // alert("grecaptcha is ready!");
+      let theAnswer=42;
+    };
+  </script>
+
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+async defer>
+</script>
+
+<!--  end reCAPTCHA -->
+
 </body>
 
 </html>
