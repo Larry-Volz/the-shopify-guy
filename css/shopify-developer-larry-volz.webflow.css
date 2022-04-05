@@ -3190,8 +3190,16 @@ figcaption {
   /* added 3/27/22 11:02pm */
   .hero-text.white-text {
     font-size: 4em;
-    line-height: 80%;
+    line-height: 90%;
     margin-bottom: .5em;
+  }
+
+  .phone-spacer {
+    margin-bottom: 80px;
+  }
+
+  .hero-text.white-text.long-word {
+    font-size: 2.5em;
   }
 
   .project-item-image {
