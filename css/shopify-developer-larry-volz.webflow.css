@@ -10,6 +10,10 @@ body {
 
 /* ************* MY EDITS ************** */
 
+.fade-in-from-bottom-on-load .bold-text {
+  background-color:#5E8F3E;
+  margin-bottom: 30px;
+}
 
 .message-text-area {
   text-align: left;
@@ -1875,7 +1879,7 @@ figcaption {
 }
 
 .paragraph-with-border {
-  margin-bottom: 10px;
+  margin: 20px;
 }
 
 .about-video-lightbox {
@@ -2940,7 +2944,7 @@ figcaption {
     justify-content: center;
   }
 
-  .video-side-content.right {
+  .video-side-content.left {
     text-align: left;
   }
 
