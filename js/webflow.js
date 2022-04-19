@@ -23282,16 +23282,16 @@
                                   },
                               ],
                           },
-                          {
-                              keyframe: 70,
-                              actionItems: [
-                                  {
-                                      id: "a-14-n-16",
-                                      actionTypeId: "STYLE_OPACITY",
-                                      config: { delay: 0, easing: "", duration: 500, target: { useEventTarget: "CHILDREN", selector: ".about-video-lightbox", selectorGuids: ["d1984246-ca15-9dfe-f03a-4aaf89c4f211"] }, value: 0, unit: "" },
-                                  },
-                              ],
-                          },
+                        //   {
+                        //       keyframe: 70,
+                        //       actionItems: [
+                        //           {
+                        //               id: "a-14-n-16",
+                        //               actionTypeId: "STYLE_OPACITY",
+                        //               config: { delay: 0, easing: "", duration: 500, target: { useEventTarget: "CHILDREN", selector: ".about-video-lightbox", selectorGuids: ["d1984246-ca15-9dfe-f03a-4aaf89c4f211"] }, value: 0, unit: "" },
+                        //           },
+                        //       ],
+                        //   },
                           {
                               keyframe: 75,
                               actionItems: [
@@ -23322,11 +23322,11 @@
                                           locked: false,
                                       },
                                   },
-                                  {
-                                      id: "a-14-n-17",
-                                      actionTypeId: "STYLE_OPACITY",
-                                      config: { delay: 0, easing: "", duration: 500, target: { useEventTarget: "CHILDREN", selector: ".about-video-lightbox", selectorGuids: ["d1984246-ca15-9dfe-f03a-4aaf89c4f211"] }, value: 1, unit: "" },
-                                  },
+                                //   {
+                                //       id: "a-14-n-17",
+                                //       actionTypeId: "STYLE_OPACITY",
+                                //       config: { delay: 0, easing: "", duration: 500, target: { useEventTarget: "CHILDREN", selector: ".about-video-lightbox", selectorGuids: ["d1984246-ca15-9dfe-f03a-4aaf89c4f211"] }, value: 1, unit: "" },
+                                //   },
                               ],
                           },
                       ],
